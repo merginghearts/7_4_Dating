@@ -7,15 +7,15 @@ namespace _7_4_Dating
     class Messages
     {
         public DatingProfile sender;
-        public string MessageTitle;
-        public string MessageData;
+        public string Message_title;
+        public string Message_data;
         public bool isRead;
 
         public Messages(DatingProfile sender, string MessageTitle, string MessageData)
         {
             this.sender = sender;
-            this.MessageTitle = MessageTitle;
-            this.MessageData = MessageData;
+            this.Message_title = MessageTitle;
+            this.Message_data = MessageData;
             isRead = false;
         }
 
